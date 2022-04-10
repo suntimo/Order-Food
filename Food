@@ -1,0 +1,11 @@
+list_food = ['Rice', 'Beans', 'Yam', 'Tea']
+user_name = input('Please enter your name: ').upper()
+print(f"{user_name} welcome to Oluwaseun restaurant")
+print('We have the following food available')
+for food in list_food:
+  print(food)
+user_input = input('what food do you like to eat? ').title()
+if user_input in list_food:
+  print('Your order will be ready soon')
+else:
+  print('Not Available')
